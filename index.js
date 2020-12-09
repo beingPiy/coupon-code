@@ -1,5 +1,9 @@
-var randomNumber = Math.floor((Math.random() * 1000));
+// random number which will create difference in coupon
+var randomNumber = Math.floor((Math.random() * 10000));
 
+
+//function to sync number and alphabet code
+//A is considered as trivial value that is zero(convention for coupon)
 function numToSSColumn(num){
     var s = '', t;
   
