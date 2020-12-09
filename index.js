@@ -44,6 +44,8 @@ else if(numToSSColumn(randomNumber).length == 2)
   rem_c = "A"
 }
 
+
+//final code
 if(rem_n == null)
 {
   console.log( randomNumber + rem_c + numToSSColumn(randomNumber))
