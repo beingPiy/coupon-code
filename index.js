@@ -45,7 +45,7 @@ else if(numToSSColumn(randomNumber).length == 2)
 }
 
 
-//final code
+//final coupon code
 if(rem_n == null)
 {
   console.log( randomNumber + rem_c + numToSSColumn(randomNumber))
